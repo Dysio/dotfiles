@@ -1,0 +1,16 @@
+[user]
+	name = dysio
+	email = td.dyszewski@gmail.com
+[core]
+	editor = vim
+
+	excludesfile = ~/.gitignore_global
+
+	autocrlf = input
+
+[pull]
+	ff = only
+[color "status"]
+    added = green 
+    changed = blue
+    untracked = red
