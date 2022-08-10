@@ -1,6 +1,6 @@
-[user]
-	name = dysio
-	email = td.dyszewski@gmail.com
+[include]
+	# user configuration
+	path = ~/.gitid
 [core]
 	editor = vim
 
