@@ -1,6 +1,15 @@
 [include]
 	# user configuration
 	path = ~/.gitid
+
+[alias]
+        a = add
+        c = commit
+        com = checkout main
+        d = diff
+        p = push
+        s = status --short
+
 [core]
 	editor = vim
 
@@ -10,6 +19,7 @@
 
 [pull]
 	ff = only
+
 [color "status"]
     added = green 
     changed = blue
